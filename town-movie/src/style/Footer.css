@@ -1,0 +1,38 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 1%;
+  /* background-color: aliceblue; */
+}
+
+.label {
+  color: #717171;
+  font-size: 1em;
+  margin: 1% 0;
+}
+
+.details {
+  color: #a0a0a0;
+  font-size: 0.8em;
+}
+
+.others {
+  width: 20%;
+}
+.others > .details {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.row > .link {
+  width: 100%;
+}
