@@ -1,7 +1,7 @@
-import "../style/Footer.css";
+import "../style/Footer.module.css";
 function PageFooter() {
   return (
-    <div className="footer">
+    <div className="footer-container">
       <div className="contact-us">
         <div className="label">Contact Us</div>
         <div className="details">

@@ -1,0 +1,207 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #3f3f3f;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 10%;
+}
+.page-content {
+  width: 40%;
+  height: 30%;
+}
+
+#page-title {
+  padding: 0;
+  margin: 0;
+  font-size: 5em;
+  text-align: center;
+  color: #fff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+hr {
+  border: 2px solid #fff;
+  border-radius: 1px;
+  margin: 7% 0;
+}
+
+.btn-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.action-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #a0a0a0;
+}
+
+.action-btn:hover {
+  cursor: pointer;
+  color: #ffd600;
+}
+
+.footer {
+  width: 100%;
+  height: 15%;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+/* Menubar CSS */
+
+.menu-bar {
+  height: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 1%;
+}
+
+.menu-bar-icon {
+  width: 15vw;
+}
+
+.menu-bar-button {
+  background-color: transparent;
+  border: none;
+  font-size: 1.6em;
+  color: #fff;
+  font-weight: 600;
+}
+
+.menu-bar-button:hover {
+  color: #ffd600;
+  cursor: pointer;
+}
+
+.menu-bar-icon > button {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-bar-icon > button > img {
+  height: 4vh;
+  padding-right: 5%;
+}
+
+.pages-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* height: 100%; */
+  width: 50%;
+  /* background-color: antiquewhite; */
+}
+
+.active-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 1.6em;
+  color: #ffd600;
+  font-weight: 600;
+}
+
+.hidden {
+  /* display: none; */
+  width: 50%;
+  visibility: hidden;
+}
+
+/* Footer CSS */
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 1%;
+  /* background-color: aliceblue; */
+}
+
+.label {
+  color: #717171;
+  font-size: 1em;
+  margin: 1% 0;
+}
+
+.details {
+  color: #a0a0a0;
+  font-size: 0.8em;
+}
+
+.others {
+  width: 20%;
+}
+.others > .details {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.row > .link {
+  width: 100%;
+}
+
+/* Ticketing Page */
+.ticket-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  background-color: #3f3f3f;
+}
+.ticket-content {
+  /* display: block; */
+  /* width: 100%; */
+  margin: 5%;
+}
+.content-tag {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* display: inline-block; */
+  width: 13%;
+  color: #717171;
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
+.active-tag {
+  height: 3.5vh;
+  color: #ffffff;
+  border-bottom: solid #ffd600;
+}
+
+.movie-slide {
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}

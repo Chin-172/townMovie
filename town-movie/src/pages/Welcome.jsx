@@ -1,22 +1,28 @@
-import "../style/Welcome.css";
+import "../style/style.css";
 import MenuBar from "../components/MenuBar";
 import PageFooter from "../components/Footer";
+// import { useState } from "react";
+
 function WelcomePage() {
   return (
     <div className="page-container">
       <div className="nav-bar">
         {/* using component */}
-        <MenuBar />
+        <MenuBar showNav={false} />
       </div>
       <div className="page-content">
         <div id="page-title">Welcome</div>
         <hr />
         <div className="btn-group">
-          <button className="action-btn" id="highlight-btn">
+          <a href="/Ticketing" className="action-btn" id="highlight-btn">
             TICKETING
-          </button>
-          <button className="action-btn">IMAX</button>
-          <button className="action-btn">UPCOMING</button>
+          </a>
+          <a href="/imax" className="action-btn">
+            IMAX
+          </a>
+          <a href="/Upcoming" className="action-btn">
+            UPCOMING
+          </a>
         </div>
       </div>
       <div className="footer">

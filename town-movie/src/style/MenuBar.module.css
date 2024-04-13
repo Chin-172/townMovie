@@ -1,0 +1,59 @@
+.menu-bar {
+  height: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 1%;
+}
+
+.icon {
+  width: 15vw;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  font-size: 1.6em;
+  color: #fff;
+  font-weight: 600;
+}
+
+button:hover {
+  color: #ffd600;
+  cursor: pointer;
+}
+
+.icon > button {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon > button > img {
+  height: 4vh;
+  padding-right: 5%;
+}
+
+.pages-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* height: 100%; */
+  width: 50%;
+  /* background-color: antiquewhite; */
+}
+
+.active-btn {
+  /* font-size: 3em; */
+  color: #ffd600;
+}
+
+.hidden {
+  /* display: none; */
+  width: 50%;
+  visibility: hidden;
+}
